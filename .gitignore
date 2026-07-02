@@ -1,0 +1,18 @@
+# Hardware build caches
+.pio/
+.lib/
+bin/
+objs/
+
+# Heavy local model binaries and clinic datasets
+/datasets/
+*.wav
+*.mp3
+*.tflite
+*.h5
+
+# OS / IDE tracking exclusions
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
